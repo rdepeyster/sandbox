@@ -1,0 +1,18 @@
+\documentclass{article}
+
+\usepackage[xindy]{glossaries}
+%\input{testinput}
+
+
+
+\newacronym{ccd}{CCD}{Charge-coupled device}
+\newacronym{abc}{ABC}{the alphabet}
+\newacronym{foo}{foobar}{the mighty Foo}
+   \makeglossaries
+\begin{document}
+
+\printglossaries
+
+\gls{abc} \gls{foo} \gls{ccd}
+
+\end{document}
